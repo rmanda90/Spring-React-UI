@@ -8,7 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class WelcomeController {
     @GetMapping("")
     public ModelAndView home() {
-        ModelAndView mav = new ModelAndView("index");
-        return mav;
+        return new ModelAndView("index");
     }
 }
