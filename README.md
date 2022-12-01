@@ -3,8 +3,9 @@ Project is to Learn Full Stack (Spring Boot, React, ELK, Rabit MQ &amp; mysql)
 
 #Project Stack
 # Spring Boot
-<li>REST services</li>
-<li>spring-cloud-openfeign</li>https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/
+<li>Microservice - REST services</li>
+<li>Microservice Registration and Discovery with Spring Cloud and Netflix's Eureka</li>
+<li>spring-cloud-openfeign</li>
 <li>Spring Cloud Config</li>
 <li>Spring Data JPA</li>
 <li>Messaging with RabbitMQ</li>
