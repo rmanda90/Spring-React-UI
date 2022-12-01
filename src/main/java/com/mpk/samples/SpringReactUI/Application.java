@@ -13,4 +13,10 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+//	@Bean
+//	@LoadBalanced
+//	public RestTemplate getRestTemplate() {
+//		return new RestTemplate();
+//	}
+
 }

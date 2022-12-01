@@ -6,8 +6,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-@FeignClient(name = "rest-app-client", url="${rest-service}")
+/*
+* Here we are using eureka-client from eureka service registery 
+* @Here rest-app-client is resolving to http://localhost:8093/
+*/
+@FeignClient(name = "rest-app-client")
 public interface StudentsClient {
 
 	@GetMapping("v1/students")

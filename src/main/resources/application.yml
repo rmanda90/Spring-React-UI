@@ -16,5 +16,3 @@ management:
     web:
       exposure:
         include=metrics,info,mappings:
-          
-rest-service: http://localhost:8093/
