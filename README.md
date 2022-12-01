@@ -22,4 +22,4 @@ Project is to Learn Full Stack (Spring Boot, React, ELK, Rabit MQ &amp; mysql)
 
 <p><center><b>College - ERD</b></center></p>
 
-![img_1.png](/Users/rm096939/opt-tools/ws/Samples/Spring-React-UI/ERD-College.webp)
+![img_1.png](../../Spring-React-UI/ERD-College.webp)
