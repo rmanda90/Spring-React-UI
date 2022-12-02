@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
 @Data
 @Builder
@@ -15,12 +16,11 @@ import lombok.experimental.Accessors;
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
-
+@Slf4j
+public class Instructor {
     private int id;
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String address;
+    private String departmentName;
+    private String handleBy;
+    private String fullName;
     private String phoneNumber;
 }

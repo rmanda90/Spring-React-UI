@@ -63,21 +63,21 @@ class StudentsList extends Component {
 
     const rows = this.props.studentList ? this.props.studentList.map((student, i) => ({
       indx: i + 1,
-      studentId: student.studentId,
+      studentId: student.id,
       displayName: student.firstName + ' ' + student.lastName,
-      emailId: student.emailId,
+      emailId: student.email,
       actions: (
         <div>
           <button
             id={`delete-${student.id}`}
             className='btn btn-danger'
             title={`Delete ${student.firstName} ${student.lastName}`}
-            onClick={(e) => this.onClickDelete(student.studentId, e)}
-            key={`delete-${student.studentId}`}
+            onClick={(e) => this.onClickDelete(student.id, e)}
+            key={`delete-${student.id}`}
           >
             <i className="fa fa-trash" aria-hidden="true"></i>
           </button>
-          <Link className="btn btn-primary" id={`edit-${student.id}`} to={`/students/edit/${student.studentId}`}>
+          <Link className="btn btn-primary" id={`edit-${student.id}`} to={`/students/edit/${student.id}`}>
             <i className="fa fa-edit" aria-hidden="true"></i>
           </Link>
         </div>

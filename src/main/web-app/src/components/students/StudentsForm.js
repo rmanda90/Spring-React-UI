@@ -14,7 +14,7 @@ class StudentsForm extends Component {
         this.inputDisplayNames = {
             firstName: 'First Name',
             lastName: 'Last Name',
-            emailId: 'Email'
+            email: 'Email'
         };
 
         this.requiredFields = ['First Name', 'Last Name', 'Email'];
