@@ -15,12 +15,7 @@ import lombok.experimental.Accessors;
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
-
-    private int id;
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String address;
-    private String phoneNumber;
+public class Course_Student {
+    private int studentId;
+    private int courseId;
 }
