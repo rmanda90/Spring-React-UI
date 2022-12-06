@@ -25,7 +25,7 @@ Example considered to build an application for a college with below use cases
 4. Each instructor can take any number of courses, but course can be taken by only one instructor. <b> ManyToOne </b>
 5. A student can enrol for any number of courses and each course can have any number of students. <b> ManyToMany </b>
 
-![img_1.png](/Users/rm096939/opt-tools/ws/Samples/Spring-React-UI/ERD-College.webp)
+![img_1.png](/ERD-College.png)
 
 ### This Spring-React-UI is communicating with other microservices programs used are these:
 
