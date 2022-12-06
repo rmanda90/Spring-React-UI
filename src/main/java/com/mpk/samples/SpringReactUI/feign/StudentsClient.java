@@ -20,7 +20,7 @@ public interface StudentsClient {
     ResponseEntity<Student> postStudent(@RequestBody Student student);
 
 	@GetMapping("v1/students/{id}")
-    ResponseEntity<Student> retrieveStudentById(@PathVariable Long id);
+    ResponseEntity<Student> retrieveStudentById(@PathVariable Integer id);
 
 	@PutMapping("v1/students/{id}")
     ResponseEntity<Student> updateStudent(@RequestBody Student newStudent, @PathVariable Long id);
