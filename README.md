@@ -42,3 +42,6 @@ Example considered to build an application for a college with below use cases
 1. Rabit MQ will be used for all delete operations just push the message with id what need to be deleted, it will communicate with rabit microservice.
 2. Send Important notifications to student and Instructors using Scheduler & Rabit MQ.
 3. The data what ever we see in frontend should be load from Kibana this is other service. 
+
+
+### Try to Understand :: https://maven.apache.org/pom.html#Repository
