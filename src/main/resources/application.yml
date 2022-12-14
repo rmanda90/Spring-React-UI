@@ -1,3 +1,6 @@
+server:
+  port: 8080 #port where discovery client is registered, don't change this port react fetch operations hard coded with this port
+  
 spring:
   application:
     name: spring-react-ui
@@ -7,9 +10,6 @@ spring:
     import: optional:configserver:http://localhost:8888
   thymeleaf:
     prefix: classpath:/static/
-
-server:
-  port: 8080 #port where discovery client is registered, don't change this port react fetch operations hard coded with this port
 
 management:
   endpoints:
